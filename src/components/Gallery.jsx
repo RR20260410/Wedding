@@ -12,6 +12,7 @@ const Gallery = () => {
   { id: 4, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/paredes.jpg', alt: 'Paredes de Coura', category: '2018' },
   { id: 5, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/lamego.jpg', alt: 'Lamego', category: '2019' },
   { id: 6, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/gibraltar.jpg', alt: 'Gibraltar', category: '2019' },
+  { id: 7, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/douro.jpg', alt: 'Porto', category: '2020' },
   { id: 7, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/polonia.jpg', alt: 'Varsóvia', category: '2021' },
   { id: 8, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/granada.jpg', alt: 'Granada', category: '2022' },
   { id: 9, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/turquia.jpg', alt: 'Istambul', category: '2022' },
@@ -19,6 +20,12 @@ const Gallery = () => {
   { id: 11, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/cuba.jpg', alt: 'Havana', category: '2023' },
   { id: 12, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/como.jpg', alt: 'Como', category: '2023' },
   { id: 13, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/milao.jpg', alt: 'Milão', category: '2023' },
+  { id: 13, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/dingle.jpg', alt: 'Dingle', category: '2024' },
+  { id: 14, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/bilbao1.jpg', alt: 'Bilbao', category: '2025' },
+  { id: 15, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/sanjuan.jpg', alt: 'S. Juan deGaztelugatxe', category: '2025' },
+  { id: 15, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/Sahara.jpg', alt: 'Sahara', category: '2025' },
+
+ 
   ];
 
   // Auto-play functionality
