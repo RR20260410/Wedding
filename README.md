@@ -1,4 +1,4 @@
-# Sarah & John's Wedding Website
+# Rita & Rafa's Wedding Website
 
 A beautiful, responsive wedding website built with React and modern web technologies. This single-page application features a romantic design with a green color scheme and is optimized for both desktop and mobile devices.
 
@@ -167,4 +167,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Made with ❤️ for Sarah & John's special day**
+**Made with ❤️ for Rita & Rafa's special day**
