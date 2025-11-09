@@ -22,7 +22,7 @@ const Celebration = () => {
     <div className="celebration">
   <img src="https://raw.githubusercontent.com/rafa2024/wed_website/main/image/guiness.jpg" alt="Guiness" className="celebration__image" />
       <div className="celebration__content">
-        <h3 className="celebration__title">Vem brindar connosco</h3>
+        <h3 className="celebration__title">Vem brindar connosco!</h3>
         <div className="celebration__countdown">
           <div className="celebration__unit"><span>{String(days).padStart(2, '0')}</span><small>d</small></div>
           <div className="celebration__unit"><span>{String(hours).padStart(2, '0')}</span><small>h</small></div>
@@ -55,7 +55,7 @@ const Footer = () => {
           </div>
 
           <div className="footer__bottom">
-            <p>&copy; {currentYear} Rafa & Rita. Feito com amor ❤️</p>
+            <p>&copy; {currentYear} Rafa & Rita. Feito com ❤️</p>
           </div>
         </div>
       </footer>

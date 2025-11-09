@@ -157,26 +157,25 @@
   inset: 0;
   z-index: 2;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-direction: column;
   color: var(--white);
   padding: var(--spacing-2xl);
-  transform: translateY(20%);
 }
 
 .celebration__title {
   margin: 0 0 var(--spacing-md);
   color: var(--white);
   font-size: 2.2rem;
-  text-align: center;
+  text-align: left;
 }
 
 .celebration__countdown {
   display: flex;
   gap: var(--spacing-md);
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .celebration__unit span {
@@ -200,5 +199,4 @@
   .celebration__image { height: 320px; }
   .celebration__title { font-size: 1.6rem; }
   .celebration__unit span { font-size: 1rem; }
-  .celebration__content { transform: translateY(6%); }
 }
