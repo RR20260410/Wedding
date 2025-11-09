@@ -50,7 +50,7 @@ const Footer = () => {
           <div className="footer__content">
             <div className="footer__main">
               <h3 className="footer__title">Rafa & Rita</h3>
-              <p className="footer__subtitle">November 4, 2026</p>
+              <p className="footer__subtitle"> 4 de Outubro, 2026</p>
             </div>
           </div>
 

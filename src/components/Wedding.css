@@ -132,6 +132,58 @@
   min-width: 140px;
 }
 
+/* Accommodation Section */
+.wedding__accommodation {
+  margin-top: var(--spacing-3xl);
+  margin-bottom: var(--spacing-3xl);
+}
+
+.wedding__accommodation-card {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: var(--spacing-2xl);
+}
+
+.wedding__accommodation-icon {
+  font-size: 3rem;
+  margin-bottom: var(--spacing-lg);
+  display: block;
+}
+
+.wedding__accommodation-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--spacing-md) 0;
+  text-align: left;
+  display: inline-block;
+}
+
+.wedding__accommodation-list li {
+  padding: var(--spacing-sm) 0;
+  color: var(--dark-gray);
+  line-height: 1.6;
+}
+
+.wedding__accommodation-list li::before {
+  content: '✓ ';
+  color: var(--primary-green);
+  font-weight: bold;
+  margin-right: var(--spacing-xs);
+}
+
+.wedding__accommodation-note {
+  margin: var(--spacing-md) 0;
+  color: var(--medium-gray);
+  font-style: italic;
+}
+
+.wedding__accommodation-important {
+  margin: var(--spacing-md) 0 0 0;
+  color: var(--primary-green);
+  font-weight: 600;
+}
+
 @media (max-width: 768px) {
   .wedding__timeline-item {
     flex-direction: column;
@@ -151,5 +203,13 @@
   .wedding__registry .btn {
     width: 100%;
     max-width: 200px;
+  }
+
+  .wedding__accommodation-card {
+    padding: var(--spacing-lg);
+  }
+
+  .wedding__accommodation-list {
+    text-align: center;
   }
 } 

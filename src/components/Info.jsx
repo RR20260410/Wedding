@@ -55,26 +55,6 @@ const Info = () => {
           </div>
         </div>
 
-        {/* Alojamento block - same width as above */}
-        <div className="info__content" style={{ marginTop: '2rem' }}>
-          <div className="info__details">
-            <div className="info__contact">
-              <h3>Alojamento</h3>
-              <div className="info__contact-cards">
-                <div className="info__contact-card">
-                  <div className="info__contact-icon">🛏️</div>
-                  <ul style={{ marginBottom: '0.5rem' }}>
-                    <li>Quarto na quinta - 150€ para 2 pessoas</li>
-                    <li>Cama em camarata na quinta - 20€ por pessoa</li>
-                  </ul>
-                  <p style={{ marginBottom: '0.5rem' }}><em>*Pequeno almoço incluído no dia seguinte</em></p>
-                  <p><strong>Quem pretender alojamento, comunicar com a maior brevidade possível</strong></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
     </section>
   );

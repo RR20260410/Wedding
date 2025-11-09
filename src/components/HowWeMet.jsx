@@ -7,20 +7,17 @@ const HowWeMet = () => {
 
   const storyEvents = [
     {
-      year: '2013',
-      title: 'O Baile',
-      description: 'Desde a escola EB23 do Viso, onde nem sempre fomos os melhores amigos, até entrarmos juntos no baile de finalistas do secundário. O nosso percurso como parceiros já tem uma duração respeitável, no nosso caso, dizer que crescemos juntos, é literal. Era impossível sermos os mesmos, tinhamos 12 anos na primeira vez em que nos vimos, já levamos 3 décadas, juntos metade desse tempo.',
+      year: 'O ínicio',
+      description: 'Desde a escola EB23 do Viso, onde nem sempre fomos os melhores amigos, até entrarmos juntos no baile de finalistas do secundário, o nosso percurso como parceiros já tem uma duração respeitável. No nosso caso, dizer que crescemos juntos, é literal.',
   image: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/baile.jpg'
     },
     {
-      year: '2018',
-      title: 'Cortejo',
-      description: 'Completámos vários objetivos em conjunto, quer fossem individuais ou comuns, e ultrapássamos várias metas. Partilhámos estadia em diferentes locais ao redor do mundo, uns mais citadinos, outros mais exóticos. Mas este percurso não foi totalmente feito a dois, os familiares e amigos que nos acompanharam enriquecem esta história.',
+      year: 'O caminho',
+      description: 'Completámos vários objetivos e ultrapássamos metas individuais e comuns. Partilhámos estadia em diferentes locais ao redor do mundo, uns mais citadinos, outros mais exóticos. Mas este percurso não foi totalmente feito a dois, os familiares e amigos que nos acompanharam enriquecem esta história.',
   image: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/cortejo1.jpg'
     },
     {
-      year: '2025',
-      title: 'O Pedido',
+      year: 'O próximo passo',
       description: 'Agora decidimos avançar para uma nova fase. Queremos contar com a tua presença para este momento especial.',
   image: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/pedido.jpg'
     }
@@ -53,7 +50,6 @@ const HowWeMet = () => {
               <div className="how-we-met__story-item">
                 <div className="how-we-met__story-content">
                   <div className="how-we-met__year">{event.year}</div>
-                  <h3 className="how-we-met__title">{event.title}</h3>
                   <p className="how-we-met__description">{event.description}</p>
                 </div>
               </div>

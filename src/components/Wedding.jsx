@@ -56,7 +56,20 @@ const Wedding = () => {
               </div>
             ))}
           </div>
-        </div>  
+        </div>
+
+        <div className="wedding__accommodation">
+          <h3 className="text-center mb-lg">Alojamento</h3>
+          <div className="wedding__accommodation-card card">
+            <div className="wedding__accommodation-icon">🛏️</div>
+            <ul className="wedding__accommodation-list">
+              <li>Quarto na quinta - 150€ para 2 pessoas</li>
+              <li>Cama em camarata na quinta - 20€ por pessoa</li>
+            </ul>
+            <p className="wedding__accommodation-note"><em>*Pequeno almoço incluído no dia seguinte</em></p>
+            <p className="wedding__accommodation-important"><strong>Quem pretender alojamento, comunicar com a maior brevidade possível</strong></p>
+          </div>
+        </div>
       </div>
     </section>
   );
