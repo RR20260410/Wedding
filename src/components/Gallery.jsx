@@ -7,7 +7,7 @@ const Gallery = () => {
 
   const images = [
   { id: 1, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/barcelona.jpg', alt: 'Barcelona', category: '2013' },
-  { id: 2, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/ilha.JPG', alt: 'A ilha', category: '2015' },
+  { id: 2, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/ilha.JPG', alt: 'Ilha da Armona', category: '2015' },
   { id: 3, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/paris.jpg', alt: 'Paris', category: '2016' },
   { id: 4, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/paredes.jpg', alt: 'Paredes de Coura', category: '2018' },
   { id: 5, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/lamego.jpg', alt: 'Lamego', category: '2019' },
@@ -65,7 +65,7 @@ const Gallery = () => {
       <div className="container">
         <h2 className="section-title">A nossa história em imagens</h2>
         <p className="text-center mb-xl">
-          Uma coleção dos nossos momentos favoritos juntos ao longo dos anos.
+          Uma coleção dos nossos momentos favoritos ao longo dos anos.
         </p>
 
         <div className="gallery__carousel">
