@@ -6,19 +6,19 @@ const Gallery = () => {
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
   const images = [
-  { id: 1, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/barcelona.jpg', alt: 'Barcelona', category: 'travel' },
-  { id: 2, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/paris.jpg', alt: 'Paris', category: 'dating' },
-  { id: 3, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/ilha.JPG', alt: 'A ilha', category: 'travel' },
-  { id: 4, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/paredes.jpg', alt: 'Paredes', category: 'travel' },
-  { id: 5, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/lamego.jpg', alt: 'Lamego', category: 'travel' },
-  { id: 6, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/gibraltar.jpg', alt: 'Gibraltar', category: 'travel' },
-  { id: 7, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/polonia.jpg', alt: 'Polônia', category: 'travel' },
-  { id: 8, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/granada.jpg', alt: 'Granada', category: 'travel' },
-  { id: 9, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/turquia.jpg', alt: 'Turquia', category: 'travel' },
-  { id: 10, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/disney.jpg', alt: 'Disney', category: 'travel' },
-  { id: 11, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/cuba.jpg', alt: 'Cuba', category: 'travel' },
-  { id: 12, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/como.jpg', alt: 'Como', category: 'travel' },
-  { id: 13, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/milao.jpg', alt: 'Milão', category: 'travel' },
+  { id: 1, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/barcelona.jpg', alt: 'Barcelona', category: '2013' },
+  { id: 2, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/ilha.JPG', alt: 'A ilha', category: '2015' },
+  { id: 3, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/paris.jpg', alt: 'Paris', category: '2016' },
+  { id: 4, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/paredes.jpg', alt: 'Paredes de Coura', category: '2018' },
+  { id: 5, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/lamego.jpg', alt: 'Lamego', category: '2019' },
+  { id: 6, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/gibraltar.jpg', alt: 'Gibraltar', category: '2019' },
+  { id: 7, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/polonia.jpg', alt: 'Varsóvia', category: '2021' },
+  { id: 8, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/granada.jpg', alt: 'Granada', category: '2022' },
+  { id: 9, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/turquia.jpg', alt: 'Istambul', category: '2022' },
+  { id: 10, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/disney.jpg', alt: 'DisneyLand Paris', category: '2023' },
+  { id: 11, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/cuba.jpg', alt: 'Havana', category: '2023' },
+  { id: 12, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/como.jpg', alt: 'Como', category: '2023' },
+  { id: 13, src: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/milao.jpg', alt: 'Milão', category: '2023' },
   ];
 
   // Auto-play functionality
@@ -65,7 +65,7 @@ const Gallery = () => {
       <div className="container">
         <h2 className="section-title">A nossa história em imagens</h2>
         <p className="text-center mb-xl">
-          Uma coleção dos nossos momentos favoritos juntos, desde o nosso primeiro encontro até o nosso noivado.
+          Uma coleção dos nossos momentos favoritos juntos ao longo dos anos.
         </p>
 
         <div className="gallery__carousel">
