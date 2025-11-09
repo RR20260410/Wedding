@@ -17,7 +17,7 @@ const Info = () => {
   return (
     <section id="info" className="section info bg-green">
       <div className="container">
-        <h2 className="section-title">Information & RSVP</h2>
+        <h2 className="section-title">Confirmação & Contactos</h2>
 
         <div className="info__content grid grid-2">
           <div className="info__rsvp">
@@ -36,19 +36,19 @@ const Info = () => {
 
           <div className="info__details" height="600px">
             <div className="info__contact">
-              <h3>Contact Information</h3>
+              <h3>Contactos</h3>
               <div className="info__contact-cards" height="100%">
                 <div className="info__contact-card">
-                  <div className="info__contact-icon">👰</div>
+                  <div className="info__contact-icon">👰‍♀️</div>
                   <h4>{contactInfo.bride.name}</h4>
                   <p>📞 {contactInfo.bride.phone}</p>
-                  <p><span className="email-emoji">🖂</span> {contactInfo.bride.email}</p>
+                  <p>📧 {contactInfo.bride.email}</p>
                 </div>
                 <div className="info__contact-card">
                   <div className="info__contact-icon">🤵</div>
                   <h4>{contactInfo.groom.name}</h4>
                   <p>📞 {contactInfo.groom.phone}</p>
-                  <p><span className="email-emoji">🖂</span> {contactInfo.groom.email}</p>
+                  <p>📧 {contactInfo.groom.email}</p>
                 </div>
               </div>
             </div>
