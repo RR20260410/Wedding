@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://gabm-01.github.io/Wedding-Site/",
+  "homepage": "https://rr20260410.github.io/Wedding/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
