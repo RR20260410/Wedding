@@ -49,13 +49,13 @@ const Footer = () => {
         <div className="container">
           <div className="footer__content">
             <div className="footer__main">
-              <h3 className="footer__title">Rafa & Rita</h3>
+              <h3 className="footer__title">Rita & Rafa</h3>
               <p className="footer__subtitle"> 4 de Outubro, 2026</p>
             </div>
           </div>
 
           <div className="footer__bottom">
-            <p>&copy; {currentYear} Rafa & Rita. Feito com 🤍</p>
+            <p>&copy; {currentYear} Rita & Rafa. Feito com 🤍</p>
           </div>
         </div>
       </footer>

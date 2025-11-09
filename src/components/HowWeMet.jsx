@@ -8,7 +8,7 @@ const HowWeMet = () => {
   const storyEvents = [
     {
       year: 'O ínicio',
-      description: 'Desde a escola EB23 do Viso, onde nem sempre fomos os melhores amigos, até entrarmos juntos no baile de finalistas do secundário, o nosso percurso como parceiros já tem uma duração respeitável. No nosso caso, dizer que crescemos juntos, é literal.',
+      description: 'Desde a escola EB23 do Viso, onde nem sempre fomos os melhores amigos, até entrarmos juntos no baile de finalistas do secundário, o nosso percurso como parceiros já tem uma duração respeitável. No nosso caso, dizer que crescemos juntos é literal.',
   image: 'https://raw.githubusercontent.com/rafa2024/wed_website/main/image/baile.jpg'
     },
     {
