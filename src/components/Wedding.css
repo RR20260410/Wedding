@@ -7,14 +7,16 @@
 }
 
 .wedding__ceremony,
-.wedding__reception {
+.wedding__reception,
+.wedding__accommodation {
   text-align: center;
   position: relative;
   overflow: hidden;
 }
 
 .wedding__ceremony::before,
-.wedding__reception::before {
+.wedding__reception::before,
+.wedding__accommodation::before {
   content: '';
   position: absolute;
   top: 0;
@@ -25,14 +27,16 @@
 }
 
 .wedding__ceremony-icon,
-.wedding__reception-icon {
+.wedding__reception-icon,
+.wedding__accommodation-icon {
   font-size: 3rem;
   margin-bottom: var(--spacing-md);
   display: block;
 }
 
 .wedding__ceremony h3,
-.wedding__reception h3 {
+.wedding__reception h3,
+.wedding__accommodation h3 {
   color: var(--primary-green);
   margin-bottom: var(--spacing-md);
 }
@@ -69,6 +73,14 @@
 .wedding__timeline {
   max-width: 600px;
   margin: 0 auto;
+}
+
+.wedding__schedule-note {
+  text-align: center;
+  margin-top: var(--spacing-lg);
+  color: var(--medium-gray);
+  font-style: italic;
+  font-size: 0.95rem;
 }
 
 .wedding__timeline-item {
@@ -133,28 +145,10 @@
 }
 
 /* Accommodation Section */
-.wedding__accommodation {
-  margin-top: var(--spacing-3xl);
-  margin-bottom: var(--spacing-3xl);
-}
-
-.wedding__accommodation-card {
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
-  padding: var(--spacing-2xl);
-}
-
-.wedding__accommodation-icon {
-  font-size: 3rem;
-  margin-bottom: var(--spacing-lg);
-  display: block;
-}
-
 .wedding__accommodation-list {
   list-style: none;
   padding: 0;
-  margin: 0 0 var(--spacing-md) 0;
+  margin: 0 0 var(--spacing-lg) 0;
   text-align: left;
   display: inline-block;
 }
@@ -176,12 +170,14 @@
   margin: var(--spacing-md) 0;
   color: var(--medium-gray);
   font-style: italic;
+  line-height: 1.6;
 }
 
 .wedding__accommodation-important {
   margin: var(--spacing-md) 0 0 0;
   color: var(--primary-green);
   font-weight: 600;
+  line-height: 1.6;
 }
 
 @media (max-width: 768px) {
@@ -203,10 +199,6 @@
   .wedding__registry .btn {
     width: 100%;
     max-width: 200px;
-  }
-
-  .wedding__accommodation-card {
-    padding: var(--spacing-lg);
   }
 
   .wedding__accommodation-list {
